@@ -123,8 +123,8 @@ a {
 .vr-text {
     font-family: 'Alata', sans-serif;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 1.66rem;
     color: #000000;
     opacity: 0.5;
     margin: 25px 0 0 0;
@@ -177,12 +177,16 @@ a {
 
 .column-8 img {
     width: 100%;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .column-8:hover img {
     opacity: 0.4;
     cursor: pointer;
+}
+
+.column-8:hover .creations-page{
+    color: #000000;
 }
 
 .creations-page {
